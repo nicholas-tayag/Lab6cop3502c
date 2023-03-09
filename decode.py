@@ -8,4 +8,3 @@ def decode(encodepass):
     #print(decodepass)
     return decodepass
 
-

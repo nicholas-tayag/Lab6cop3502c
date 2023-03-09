@@ -2,7 +2,8 @@ from lab6 import encode
 from decode import decode
 
 def menu():
-    print("Welcome to encoder/decoder")
+    print("Menu")
+    print("-------------")
     print("Type '1' to Encode")
     print("Type '2' to Decode")
 
@@ -14,6 +15,5 @@ while True:
         new_password = encode(password)
         print(new_password)
     if option == 2:
-        decode()
-
+        decode(new_password)
 
