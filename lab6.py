@@ -1,9 +1,9 @@
 # Nicholas Tayag
 
 def encode(password):
-    password = []
+    new_password = ""
     for i in password:
         num_3 = int(i) + 3
-        password = str(num_3)
+        new_password += str(num_3)
     return password
 
