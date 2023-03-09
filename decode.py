@@ -1,4 +1,4 @@
-#Dion Ming
+#Dion Ming.
 
 def decode(encodepass):
     decodepass = ''
