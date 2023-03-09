@@ -11,7 +11,7 @@ while True:
     option = int(input())
     if option == 1:
         password = (input("Encode Password: "))
-        encode(password)
-        print(password)
+        new_password = encode(password)
+        print(new_password)
     if option == 2:
         decode = int(input("Decode Password: "))
